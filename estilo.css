@@ -29,6 +29,28 @@ main{
     margin-right: 220px;
 
 }
+.glitter > .container_um{
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    margin-top: -150px;
+    height: 120px;
+    
+
+}
+.glitter > .container_um > .um{
+    height: 1070px;
+
+}
+
+.glitter > .container_dois{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-top: -150px;
+    height: 150px;
+    
+}
 
 
 
@@ -83,15 +105,105 @@ main{
     font-size: 20px;
     text-shadow: 0px 4px 10px rgb(0, 0, 0);
     height: 70px;
+    cursor: pointer;
+    box-shadow: 0px 4px 45px rgb(48, 43, 102);
+
+
+
 }
 .main_text > button img{
     margin-left: -55px;
     transform: scale(.85);
     margin-right: 10px;
 }
-
+.main_text > button:hover{
+    background: rgb(48,43,102);
+    background: linear-gradient(90deg, rgba(48,43,102,1) 0%, rgba(56,12,69,1) 100%);
+}
 .foto_mariana{
     height: 850px;
     margin-right: -125px;
     margin-top: -40px;
+}
+.titulo_p2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 28px;
+}
+.titulo_p2 span{
+    font-family: poppins-bold;
+    font-size: 25px;
+
+}
+
+
+
+.pagina2_benef{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 21px;
+
+}
+.pagina2_benef > .container_beneficios{
+    height: 300px;
+    width: 455px;
+    background-image: url(Imagens/beneficiosimg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 115%;
+    border-radius: 21px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    padding: 49px;
+    padding-bottom: 35px;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+
+.pagina2_benef > .container_beneficios > span{
+    font-family: poppins-bold;
+    font-size: 25px;
+    line-height: 98%;
+    text-shadow: 0px 4px 10px rgb(0, 0, 0);
+}
+.pagina2_benef > .container_beneficios{
+    line-height: 98%;
+    font-size: 19px;
+    font-family: poppins-regular;
+    text-shadow: 0px 4px 10px rgb(0, 0, 0);
+    margin-bottom: 100px;
+
+   
+
+}
+.pagina2_benef > .container_beneficios:hover{
+    background: rgb(48,43,102);
+    background: linear-gradient(90deg, rgba(48,43,102,1) 0%, rgba(56,12,69,1) 100%);
+}
+.pagina3_makeup{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 300px;
+
+}
+.titulo_p3{
+    display: flex;
+    justify-content: center;
+    padding-left: 390px;
+    padding-right: 390px;
+
+}
+.titulo_p3 span{
+    font-family: poppins-bold;
+    font-size: 25px;
+    text-align: center;
+    line-height: 98%;
+
+
 }
