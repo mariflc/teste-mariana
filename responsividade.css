@@ -1,0 +1,10 @@
+@media screen and (max-width: 2048px) and (min-width: 1500px){
+    .main_text{
+        width: 450px;
+    }    
+    .main_text > p{
+        width: 420px;
+
+   
+    }
+}
