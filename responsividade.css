@@ -12,6 +12,10 @@
     
     }
     .pagina3_lash {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         margin-top:-330px;
         margin-bottom: 800px;
       }
@@ -415,10 +419,7 @@
         margin-left:75px ;
     }
     .pagina3_lash {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+      
         margin-top:0;
         margin-bottom: 1000px;
       }
@@ -437,17 +438,17 @@
       }
 
       .texto_lash{
-        position: none;
+        position: relative;
         top: none;
         left: none;
         z-index: 1;
         transform: 0;
         display: flex;
         flex-direction: column;
-        justify-content: end;
+        justify-content: center;
         align-items: center;
         text-align: center;
-        height: 2200px;
+        height: 250px;
         width: 450px;
         margin-top: 10px;
         margin-left: 10px;
