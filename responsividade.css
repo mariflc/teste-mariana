@@ -254,10 +254,32 @@
 
 /* celular */
 @media screen and (max-width: 430px) and (min-width: 320px) {
-
-    body{
-        overflow-x: hidden;
+    .glitter > .container_um{
+        display: flex;
+        justify-content: end;
+        align-items: start;
+        margin-top: -150px;
+        height: 120px;
+        
+    
     }
+    .glitter > .container_um > .um{
+        height: 1000px;
+        width: 500px;
+        overflow-x: hidden;
+    
+    }
+    
+    .glitter > .container_dois{
+        display: none;
+       
+    }
+
+
+
+
+
+
     main{
         margin-left: 10px;
         margin-right: 10px;
