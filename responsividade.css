@@ -261,6 +261,17 @@
     }
     header figure img{
         z-index: 1;
+        height: 25%;
+        width: 25%;
+    }
+    .container_logo{
+     
+        padding-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
     }
     .pagina1{
         display: flex;
@@ -285,7 +296,7 @@
     } 
     .main_text > button{
         border-radius: 15px;
-        width: 330px;
+        width: 360px;
         color: white;
         font-family: poppins-bold;
         font-size: 18px;
