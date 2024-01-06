@@ -663,7 +663,8 @@
         align-items: center;
         width: 100%;
         padding-top: 15px;
-        border-radius: 20px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
         height: 100px;
         gap: 5px;
         font-family: poppins-bold;
