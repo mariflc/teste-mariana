@@ -280,12 +280,11 @@
     }
     body{
         height: 100vh;
-        padding: 0;
-        margin-right: -100px;
 
     }
 
     main{
+        overflow-x: hidden;
         margin-left: 0px;
         margin-right:0px;
 
