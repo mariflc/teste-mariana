@@ -291,17 +291,20 @@
         text-align: center;
         flex-direction: column;
         justify-content: start;
-        align-items: start;
+        align-items: center;
         gap: 10px; 
     } 
+    .main_text > h1{
+        font-size: 23px;
+    }
     .main_text > button{
+        margin-top: 10px;
         border-radius: 15px;
-        width: 360px;
+        width: 330px;
         color: white;
         font-family: poppins-bold;
         font-size: 18px;
         height: 70px;
-        margin-left: -5px;
 
     
     
