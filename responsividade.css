@@ -255,7 +255,7 @@
 /* celular */
 @media screen and (max-width: 430px) and (min-width: 320px) {
 
-    body,html{
+    body{
         overflow-x: hidden;
     }
     main{
