@@ -274,12 +274,9 @@
         display: none;
        
     }
-    html{
-        overflow-x: hidden;
-    }
     body{
+        margin: 0;
         overflow-x: hidden;
-
     }
 
     main{
