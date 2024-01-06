@@ -269,13 +269,13 @@
         align-items: center;
     }
     .foto_mariana{
-        height: 850px;
-        margin-left: -65px;
+        height: 640px;
+        margin-left: -80px;
         margin-top: 40px;
     }
     .main_text{
         width: 90%;
-        margin-top: -250px;
+        margin-top: -210px;
         display: flex;
         text-align: center;
         flex-direction: column;
