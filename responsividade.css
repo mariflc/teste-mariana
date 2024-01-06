@@ -330,7 +330,9 @@
         gap: 10px; 
     } 
     .main_text > h1{
-        font-size: 23px;
+        font-size: 25px;
+        width: 320px;
+
     }
     .main_text > p{
         width: 280px;
@@ -344,9 +346,6 @@
         font-size: 18px;
         height: 70px;
 
-    
-    
-    
     }
     .main_text > button img{
         margin-left: -35px;
@@ -355,7 +354,7 @@
     }
 
     .pagina2{
-        margin-top: -170px;
+        margin-top: -240px;
     }
     .pagina2_benef{
         display: flex;
