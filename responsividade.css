@@ -466,6 +466,7 @@
       }
 
     .pagina3_hair{
+        margin-top: -270px;
         display: flex;
         flex-direction: column;
         justify-content: center;
