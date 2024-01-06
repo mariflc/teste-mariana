@@ -254,6 +254,10 @@
 
 /* celular */
 @media screen and (max-width: 430px) and (min-width: 320px) {
+
+    body,html{
+        overflow-x: hidden;
+    }
     main{
         margin-left: 10px;
         margin-right: 10px;
