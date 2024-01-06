@@ -417,12 +417,12 @@ main{
 .feedback{
     margin-top: 50px;
     margin-bottom: 50px;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
+   
 
 }
 .feedbacks{
@@ -436,6 +436,7 @@ main{
     flex-direction: row;
     justify-content: start;
     align-items: center;
+
     
 
 }
@@ -443,6 +444,9 @@ main{
     flex: 1;
     text-align: start;
     padding: 50px;
+    font-family: poppins-regular;
+    font-size: 18px;
+    line-height: 98%;
 }
 .fotocliente{
     border-radius: 100%;
