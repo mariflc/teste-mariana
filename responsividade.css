@@ -257,45 +257,221 @@
     main{
         margin-left: 10px;
         margin-right: 10px;
-    
+
+    }
+    header figure img{
+        z-index: 1;
     }
     .pagina1{
         display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: start;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
     }
     .foto_mariana{
         height: 850px;
-        margin-left: -150px;
-        margin-top: -560px;
+        margin-left: -65px;
+        margin-top: 40px;
     }
     .main_text{
+        width: 90%;
+        margin-top: -250px;
         display: flex;
+        text-align: center;
         flex-direction: column;
-        justify-content: end;
-        align-items: center;
-        z-index: 100;
+        justify-content: start;
+        align-items: start;
+        gap: 10px; 
+    } 
+    .main_text > button{
+        border-radius: 15px;
+        width: 330px;
+        color: white;
+        font-family: poppins-bold;
+        font-size: 18px;
+        height: 70px;
+    
+    
+    
+    }
+    .main_text > button img{
+        margin-left: -35px;
+        transform: scale(.65);
+        margin-right: -10px;
+    }
 
-
+    .pagina2{
+        margin-top: -170px;
     }
     .pagina2_benef{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
-        gap: 0;
+        gap: 20px;
     
     }
     .pagina2_benef > .container_beneficios{
-        height: 250px;
-        width: 300px;
-        background-size: 115%;
-        border-radius: 21px;
+        height: 300px;
+        width: 255px;
         display: flex;
         flex-direction: column;
+        gap: 45px;
         padding: 49px;
+        padding-bottom: 35px;
         text-align: center;
+        margin-bottom: 0;
     
     }
+
+    .titulo_p3{
+        margin-top: 45px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-left: 40px;
+        padding-right: 40px;
+    
+    }
+    .pagina3_makeup{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .make1{
+        height: 650px;
+        width: 650px;
+        margin-top: -90px;
+        margin-left: 200px ;
+    }
+    .make2{
+        height: 550px;
+        width: 550px;
+        margin-top: 50px;
+        margin-left:100px ;
+    
+    }
+    .span_make2{
+        display: flex;
+        justify-content: center;
+        margin-top: -130px;
+    }
+    .span_make2 > span{
+        width: 400px;
+        margin-bottom: 10px;
+    
+    }
+    .make2 > p{
+        backdrop-filter: none;
+        border-radius: 0; 
+        text-align: center;
+        font-size: 17px;
+        width: 310px;
+        margin-left:75px ;
+    }
+    .pagina3_lash {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top:0;
+        margin-bottom: 1000px;
+      }
+    
+      .lash1 {
+        position: none;
+        left: 0;
+        height: 550px;
+        width: 550px;
+        margin-top: -50px;
+        margin-left: -150px;
+    
+      }
+      .lash2 {
+        position: none;
+        right: none;
+        height: 650px;
+        width: 650px;
+        margin-top: 380px;
+        margin-right: -120px;
+      }
+
+      .texto_lash{
+        position: none;
+        top: none;
+        left: none;
+        z-index: 1;
+        transform: 0;
+        text-align: center;
+        width: 450px;
+        margin-top: 1270px;
+        margin-left: 10px;
+
+      }
+      .texto_lash p{
+        margin-top: 10px;
+        margin-left: 60px;
+        line-height: 98%;
+        font-size: 19px;
+        font-family: poppins-regular;
+        text-align: center;
+        width: 320px;
+
+      }
+
+    .pagina3_hair{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: -190px;
+    
+    }
+    
+    .hair1{
+        height: 500px;
+        width: 500px;
+        z-index: 0;
+        margin-top: -210px;
+        margin-left:0px ;
+    }
+    .hair2{
+        height: 500px;
+        width: 500px;
+        z-index: 0;
+        margin-top: -40px;
+    }
+
+    .span_hair1{
+        display: flex;
+        justify-content: center;
+        margin-top: 270px;
+    
+    }
+    .span_hair1 > span{
+
+        width: 400px;
+        text-align: center;
+        margin-left: 25px;
+       
+    
+    }
+    .p_hair1{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .p_hair1 > p{
+        line-height: 98%;
+        font-size: 19px;
+        text-align: center;
+        width: 360px;
+        margin-left: 15px;
+
+    
+    }
+
+      
 }
