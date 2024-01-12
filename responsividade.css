@@ -45,6 +45,13 @@
  
     
     }
+    video{
+        width: 110%;
+        height: 100%;
+    
+    
+    }
+    
 }
 @media screen and (max-width: 1530px) and (min-width: 1440px){
     .main_text{
@@ -89,6 +96,13 @@
  
     
     }
+    video{
+        width: 110%;
+        height: 100%;
+    
+    
+    }
+    
 }
 
 @media screen and (max-width: 1444px) and (min-width: 1340px){
@@ -127,6 +141,13 @@
         height: 530px;
 
     }
+    video{
+        width: 110%;
+        height: 100%;
+    
+    
+    }
+    
 }
 @media screen and (max-width: 1339px) and (min-width: 1210px){
     
@@ -178,6 +199,13 @@
     .video{
         height: 480px;
     }
+    video{
+        width: 110%;
+        height: 100%;
+    
+    
+    }
+    
 
 }
 /* @media screen and (max-width: 1339px) and (min-width: 1024px){
@@ -644,6 +672,13 @@
         height: 500px;
       
     }
+    video{
+        width: 110%;
+        height: 100%;
+    
+    
+    }
+    
 
     .pagina6 figure img{
         height: 100%;
@@ -1086,6 +1121,13 @@
         height: 600px;
       
     }
+    video{
+        width: 110%;
+        height: 100%;
+    
+    
+    }
+    
 
     .pagina6 figure img{
         height: 100%;
