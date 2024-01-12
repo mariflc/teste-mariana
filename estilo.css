@@ -410,14 +410,15 @@ main{
     width: 100%;
 }
 .feedback{
-    margin-top: 50px;
+    /* margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
-   
+    */
+    display: none;
 
 }
 .feedbacks{
