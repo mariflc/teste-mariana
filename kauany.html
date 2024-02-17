@@ -20,10 +20,10 @@
     </main>
     
      <script>
-        // Redireciona automaticamente após o carregamento da página
-        window.onload = function() {
-            window.location.href = "https://marianaferreiratech.com.br/kauany";
-        };
+        // Verifica se a URL possui "/kauany" e redireciona para a página específica da Kauany
+        if (window.location.href.includes("/kauany")) {
+            window.location.href = "kauany.html";
+        }
     </script>
     
 </body>
