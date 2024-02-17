@@ -1,0 +1,6 @@
+{
+    "redirects": [
+      { "source": "/kauany", "destination": "/kauany.html", "statusCode": 301 }
+    ]
+  }
+  
