@@ -79,10 +79,6 @@ button{
     margin-top: 15px;
     margin-bottom: 30px;
 }
-button img{
-    margin-left: -65px;
-    transform: scale(.50);
-}
 
 button:hover{
     background: rgb(48,43,102);
