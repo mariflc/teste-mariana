@@ -81,7 +81,7 @@ button{
 }
 button img{
     margin-left: -45px;
-    transform: scale(.70);
+    transform: scale(.50);
 }
 
 button:hover{
