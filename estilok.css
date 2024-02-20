@@ -81,7 +81,6 @@ button{
 }
 button img{
     transform: scale(.75);
-    margin-left: 10px;
 }
 
 button:hover{
