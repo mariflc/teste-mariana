@@ -82,7 +82,7 @@ button{
     max-width: 100%;
 }
 button img{
-    margin-left: 65px;
+    margin-left: -65px;
     transform: scale(.75);
 }
 
