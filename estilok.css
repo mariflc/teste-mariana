@@ -68,7 +68,7 @@ button{
     background-color: #302B66;
     border: none;
     border-radius: 15px;
-    width: 440px;
+    width: 290px;
     color: white;
     font-family: poppins-bold;
     font-size: 20px;
@@ -83,7 +83,7 @@ button{
 }
 button img{
     margin-left: -45px;
-    transform: scale(.75);
+    transform: scale(.70);
 }
 
 button:hover{
