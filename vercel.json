@@ -1,6 +1,0 @@
-{
-    "redirects": [
-      { "source": "/deyse", "destination": "/deyse.html", "statusCode": 301 }
-    ]
-  }
-  
