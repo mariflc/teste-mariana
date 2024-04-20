@@ -1,0 +1,898 @@
+@font-face {
+    font-family: poppins-thin;
+    src: url("Fontes/Poppins/Poppins-Thin.ttf");
+}
+@font-face {
+    font-family: poppins-extralight;
+    src: url("Fontes/Poppins/Poppins-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: poppins-bold;
+    src: url("Fontes/Poppins/Poppins-Bold.ttf");
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}
+
+header{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    max-width: 100%;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+}
+nav ul li{
+    list-style-type: none;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: clamp(1em, 1em + 1vw,  2.188em);   
+    font-family: poppins-thin;
+
+}
+.img_menu{
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding:50px;
+    cursor: pointer;
+    display: none;
+}
+@media (max-width: 580px) {
+    #ul{
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        gap:3px;
+
+
+    }
+    #menu{
+        display: block;
+    }
+    
+
+}
+.dobra1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    gap: 45px;
+
+}
+
+.dobra1 > h1{
+    font-size: clamp(1.75em, 1em + 3vw, 3.5em);
+    font-family: poppins-thin;
+    line-height: 100%;
+}
+.dobra1 > h1 > span{
+    font-family: poppins-bold;
+    background: linear-gradient(90deg, rgba(136,109,220,1) 27%, rgba(75,37,192,1) 79%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.dobra1 > div > p{
+    font-family: poppins-extralight;
+    font-size: 50px;
+    transform: rotate(90deg);
+}
+
+
+.dobra2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.container_texto_sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 6%;
+    height: 100%;
+    gap: 35px;
+}
+.dobra2 > .container_texto_sobre > h1{
+    font-size: clamp(1.75em, 1em + 3vw, 3.5em);
+    font-family: poppins-thin;
+}
+.container_texto_sobre > h1::after{
+    content: "";
+    width: clamp(1.75em, 1em +18.188em);
+    height: 4px;
+    background-color: #6240CB;
+    display: block;
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+
+
+.dobra2 > .container_texto_sobre > p{
+    font-size: clamp(1em, 1em + 1vw,  2.188em);   
+    font-family: poppins-extralight;
+    line-height: 100%;
+}
+.container_texto_sobre > p > .nome{
+    font-family: poppins-bold;
+    background: linear-gradient(90deg, rgba(136,109,220,1) 27%, rgba(75,37,192,1) 79%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+
+
+.container_img_sobre{
+    height: 100%;
+    width: 350%;
+}
+.container_img_sobre > img{
+    height: 100%;
+    max-width: 100%;
+}
+.dobra3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-width: 100%;
+}
+
+
+
+.dobra3  > h1{
+    padding-top: 30px;
+    font-size: clamp(1.75em, 1em + 3vw, 3.5em);
+    font-family: poppins-thin;
+}
+.dobra3 > h1::after{
+    content: "";
+    width: clamp(1.75em, 1em +18.188em);
+    height: 4px;
+    background-color: #6240CB;
+    display: block;
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+
+.dobra3 > div{
+    font-size: clamp(1em, 1em + 1vw,  2.188em);   
+    font-family: poppins-thin;
+}
+.habilidades{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    height: 100%;
+    max-width: 80%;
+}
+.habilidades > div{
+    max-width: 100%;
+}
+
+
+
+
+
+.nivel_avancado{
+    height: 24px;
+    width: 835px;
+    max-width: 100%;
+    background: linear-gradient(90deg, rgba(136,109,220,1) 27%, rgba(75,37,192,1) 79%);
+    border-radius: 20px;
+
+}
+
+.nivel_regular{
+    height: 24px;
+    width: 622px;
+    max-width: 90%;
+    background: linear-gradient(90deg, rgba(136,109,220,1) 27%, rgba(75,37,192,1) 79%);
+    border-radius: 20px; 
+}
+.nivel_iniciante{
+    height: 24px;
+    width: 360px;
+    max-width: 80%;
+    background: linear-gradient(90deg, rgba(136,109,220,1) 27%, rgba(75,37,192,1) 79%);
+    border-radius: 20px; 
+}
+@media (max-width: 500px){
+    .nivel_regular{
+        height: 24px;
+        width: 622px;
+        max-width: 80%;
+        background: linear-gradient(90deg, rgba(136,109,220,1) 27%, rgba(75,37,192,1) 79%);
+        border-radius: 20px; 
+    }
+    .nivel_iniciante{
+        height: 24px;
+        width: 360px;
+        max-width: 50%;
+        background: linear-gradient(90deg, rgba(136,109,220,1) 27%, rgba(75,37,192,1) 79%);
+        border-radius: 20px; 
+    }
+    
+}
+
+.dobra4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 5%;
+}
+.dobra4> h1{
+    font-size: clamp(1.75em, 1em + 3vw, 3.5em);
+    font-family: poppins-thin;
+}
+.dobra4 > h1::after{
+    content: "";
+    width: clamp(1.75em, 1em +18.188em);
+    height: 4px;
+    background-color: #6240CB;
+    display: block;
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+
+.add_skills{
+    padding-top: 1%;
+    padding-left: 7%;
+}
+.add_skills > li{
+    list-style-image: url('Imagens/circulo.png');    
+    color: white;
+    font-family: poppins-thin;
+    font-size: clamp(1em, 1em + 1vw,  2.188em);   
+    margin: 10px;
+
+}
+
+.dobra5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 5%;
+
+}
+.dobra5> h1{
+    font-size: clamp(1.75em, 1em + 3vw, 3.5em);
+    font-family: poppins-thin;
+    padding-bottom: 3%;
+
+
+}
+.dobra5 > h1::after{
+    content: "";
+    width: clamp(1.75em, 1em +18.188em);
+    height: 4px;
+    background-color: #6240CB;
+    display: block;
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+.dobra5> h2{
+    font-size: clamp(1em, 1em + 1vw,  1.588em);
+    font-family: poppins-thin;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+
+
+    text-align: center;
+    line-height: 100%;
+
+}
+.dobra5 > button{
+    width: 835px;
+    height: 99px;
+    max-width: 80%;
+    background: linear-gradient(90deg, rgba(136,109,220,1) 27%, rgba(75,37,192,1) 79%);
+    border-radius: 20px;
+    border: none;
+    transition: all 0.3s;
+    margin: 40px;
+    font-family: poppins-bold;
+    font-size: clamp(1em, 1em + 1vw,  2.188em);  
+    color: white;
+    cursor: pointer;
+
+}
+.dobra5 > button:active {
+    transform: translateY(5px); /* Afunda o botão 2 pixels quando clicado */
+}
+
+.projetos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 60px;
+}
+.projetos > .imgs_projetos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 30px;
+    max-width: 90%;
+
+
+}
+.imgs_projetos > img {
+    cursor: pointer;
+    max-width: 50%; 
+    height: auto; 
+}
+.imgs_projetos > .celular {
+    max-width: 25%; 
+    height: auto; 
+}
+
+
+@media (max-width: 768px) {
+
+    .projetos > .imgs_projetos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 32px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    max-width: 100%;
+}
+
+footer > p{
+    font-size: clamp(1.75em, 1em + 3vw, 2.8em);
+    font-family: poppins-bold;
+    background: linear-gradient(90deg, rgba(136,109,220,1) 27%, rgba(75,37,192,1) 79%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    
+}
+footer > .divisao_footer{
+    width: 4px;
+    height: 89px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(136,109,220,1) 27%, rgba(75,37,192,1) 79%);
+
+}
+.container_infos_contatos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    height: 100%;
+}
+.infos_contatos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: poppins-thin;
+    gap: 10px;
+    font-size: clamp( 1em, 1em + 1vw, 1.438em);
+
+
+}
+
+/*Página de serviços*/
+.header_serviços, .header_projetos{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+.header_serviços > img, .header_projetos >img{
+    opacity: .5;
+}
+.header_projetos > div,
+.header_serviços > div{
+   width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.header_projetos > div > img,
+.header_serviços > div > img{
+    position: absolute;
+    left: 0;
+    height: 4.5%;
+    margin-left: 50px;
+    color: white;
+    cursor: pointer;
+    
+}
+.dobra1_serviços{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    gap: 50px;
+}
+.dobra1_projetos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-width: 100%;
+
+
+}
+.dobra1_serviços > h1, .dobra1_projetos > h1{
+    font-size: clamp(1.75em, 1em + 3vw, 3.5em);
+    font-family: poppins-thin;
+}
+
+.dobra1_serviços > h1::after, .dobra1_projetos> h1::after{
+    content: "";
+    width: clamp(1.75em, 1em +18.188em);
+    height: 4px;
+    background-color: #6240CB;
+    display: block;
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+
+.dobra1_serviços > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.dobra1_serviços > div > h2{
+    font-size: clamp(1.75em, 1em + 3vw, 2.8em);
+    font-family: poppins-thin;
+    line-height: 100%;
+    text-align: center;
+}
+
+.dobra1_serviços > div > h2 > span{
+    font-family: poppins-bold;
+    background: linear-gradient(90deg, rgba(136,109,220,1) 27%, rgba(75,37,192,1) 79%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; 
+
+}
+.dobra1_serviços > div > p{
+    font-family: poppins-thin;
+    font-size: clamp( 1em, 1em + 1vw, 1.5625em);
+    text-align: center;
+}
+.dobra1_serviços > div > .seta_indicadora{
+    font-family: poppins-extralight;
+    font-size: 50px;
+    transform: rotate(90deg);
+}
+.dobra2_serviços >  h1{
+    font-size: clamp(1.75em, 1em + 3vw, 2.8em);
+    font-family: poppins-bold;
+    line-height: 100%;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(136,109,220,1) 27%, rgba(75,37,192,1) 79%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    padding-bottom: 2%;
+}
+
+.dobra2_serviços > .container_etapas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 100%;
+
+}
+.divisao1, .divisao2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 80%;
+
+}
+.divisao1 > div, .divisao2 > div{
+    border-radius: 20px;
+    border: 2px solid #6240CB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+
+
+}
+
+.div_design{
+    width: 344px;
+    height: 355px;
+}
+.tamanho_igual{
+    width: 565px;
+    height: 355px;
+}
+.div_entrega{
+    width: 939px;
+    height: 355px;
+}
+
+.divisao1 > div > span{
+    font-size: clamp(1.75em, 1em + 3vw, 2.5em);
+    font-family: poppins-thin;
+}
+.divisao2 > div > span{
+    font-size: clamp(1.75em, 1em + 3vw, 2.5em);
+    font-family: poppins-thin;
+}
+
+.divisao1 > div > span::after{
+    content: "";
+    width: clamp(1.75em, 1em);
+    height: 4px;
+    background-color: #6240CB;
+    display: block;
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+.divisao2 > div > span::after{
+    content: "";
+    width: clamp(1.75em, 1em);
+    height: 4px;
+    background-color: #6240CB;
+    display: block;
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+.container_etapas > div > div > p{
+    font-family: poppins-thin;
+    font-size: clamp( 1em, 1em + 1vw, 1.5625em);
+    padding-left: 14%;
+    padding-right: 14%;
+    line-height: 100%;
+    text-align: center;
+
+}
+
+.dobra3_serviços{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dobra3_serviços > h1{
+    font-size: clamp(1.75em, 1em + 3vw, 2.8em);
+    font-family: poppins-thin;
+    line-height: 100%;
+    text-align: center;
+    padding: 5%;
+   
+
+}
+
+.dobra3_serviços > h1 > span{
+    font-family: poppins-bold;
+    background: linear-gradient(90deg, rgba(136,109,220,1) 27%, rgba(75,37,192,1) 79%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; 
+
+}
+.dobra3_serviços > .container_categoria{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 80%;
+}
+
+.dobra3_serviços > .container_categoria > div{
+    border-radius: 20px;
+    border: 2px solid #6240CB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    width: 409px;
+    height: 566px;
+    gap: 30px;
+}
+
+.container_categoria > div > span{
+    font-size: clamp(1.75em, 1em + 3vw, 2.5em);
+    font-family: poppins-thin;
+}
+.container_categoria > div > p{
+    font-family: poppins-thin;
+    font-size: clamp( 1em, 1em + 1vw, 1.3125em);
+    padding-left: 14%;
+    padding-right: 14%;
+    line-height: 100%;
+    text-align: left;
+}
+
+.container_categoria > div > span::after{
+    content: "";
+    width: clamp(1.75em, 1em);
+    height: 4px;
+    background-color: #6240CB;
+    display: block;
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1100px){
+    .divisao1, .divisao2{
+        flex-direction: column;
+    }
+    .div_design,.div_entrega{
+        width: 565px;
+    }
+    .dobra3_serviços > .container_categoria{
+        flex-direction: column;
+    }
+    footer{
+        background-color: #020008;
+        flex-direction: column;
+        height: 100%;
+        gap: 5px;
+        max-width: 100%;
+    }
+    footer > .divisao_footer{
+        width: 130px;
+        height: 4px;
+        border-radius: 20px;
+        background: linear-gradient(90deg, rgba(136,109,220,1) 27%, rgba(75,37,192,1) 79%);
+    
+    }
+    #divisao_footer2{
+        display: none;
+    }
+    .container_infos_contatos{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .dobra2{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    .container_img_sobre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+    .container_img_sobre > img{
+        height: 100%;
+        width: 100%;
+    }
+    .container_texto_sobre > p{
+        font-size: clamp(1em, 1em + 1vw,  2.188em);   
+        font-family: poppins-thin;
+        line-height: 100%;
+        padding-right: 6% ;
+    }
+    .dobra3_serviços > .container_categoria > div{
+        max-width: 100%;
+        width: 565px;
+        height: 455px;
+        gap: 30px;
+    }
+    
+    
+    
+}
+.dobra3_serviços >  button{
+    width: 735px;
+    height: 99px;
+    max-width: 80%;
+    background: linear-gradient(90deg, rgba(136,109,220,1) 27%, rgba(75,37,192,1) 79%);
+    border-radius: 20px;
+    border: none;
+    transition: all 0.3s;
+    margin: 40px;
+    font-family: poppins-bold;
+    font-size: clamp(1em, 1em + 1vw,  2.188em);  
+    color: white;
+    cursor: pointer;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 100%;
+
+
+}
+.dobra3_serviços > button:active {
+    transform: translateY(5px); /* Afunda o botão 2 pixels quando clicado */
+}
+.container_fotos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-width: 100%;
+    width: 100%;
+    gap: 10px;
+
+
+}
+
+.divisaofotos1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-width:60%;
+    padding-left: 10%;
+    padding-right: 10%;
+    gap: 10px;
+
+}
+.divisaofotos1 > img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+.divisaofotos2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    gap: 10px;
+
+}
+.divisaofotos2 > div {
+    height: 100%;
+    width: 100%;
+}
+.divisaofotos3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-width: 90%;
+    gap: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+
+
+}
+
+.divisaofotos3 > div > img,
+.divisaofotos3 > div{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+.divisaofotos3 >.container_img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.divisaovideos {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.divisaovideos > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+
+}
+.divisaovideos > div > iframe{
+    max-width: 100%;
+
+}
+@media (max-width: 1000px){
+    .divisaovideos > div{
+        flex-direction: column;
+
+    
+    }
+    
+}
+@media (max-width: 834px){
+    .divisaofotos1,
+    .divisaofotos2,
+    .divisaofotos3 {
+        flex-direction: column;
+        
+    }
+    .divisaofotos1{
+        max-width:100%;
+    }
+    
+}
+
